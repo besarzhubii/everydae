@@ -1,0 +1,10 @@
+.App {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  display: flex;
+  background-image: linear-gradient(0deg, #e5f7fc, #fff);
+}

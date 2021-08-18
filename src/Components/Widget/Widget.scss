@@ -1,0 +1,37 @@
+.widget {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.041), 0 3px 6px rgba(0, 0, 0, 0.137);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-color: #fff;
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .midText {
+    .boldText {
+      font-size: 28px;
+      font-weight: 700;
+      vertical-align: middle;
+    }
+    .additionals {
+      font-family: "Quicksand", sans-serif;
+      vertical-align: middle;
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+
+  .lightText {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #525252;
+  }
+
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+}

@@ -1,0 +1,15 @@
+.studentListHolder {
+  padding: 5px;
+  border-left: 1px solid #000;
+}
+
+.studentList {
+  list-style-type: none;
+  padding: 5px;
+  .singleStudent {
+    margin-top: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
